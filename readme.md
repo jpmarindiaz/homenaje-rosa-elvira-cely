@@ -1,5 +1,5 @@
 
-Rosa Elvira, 35, was found at around 5am after she called the emergency line in a park at the heart of Bogota, Colombia. She was still alive when she was taken at around 7am to the hospital. She was raped, stabbed, strangled, and her guts were destroyed by branches that were forced through her vagina and annus. 
+Rosa Elvira, 35, was found at around 5am after she called the emergency line in a park at the heart of Bogota, Colombia. She was still alive when she was taken at around 7am to the hospital. She was raped, stabbed, strangled, and her guts were destroyed by branches that were forced through her vagina and anus. 
 
 This happened in 2012. It is because of this horrific episode that we now have a law of feminicides in Colombia. However, there is still a long way to fight violence against women. This is why we made this tribute to Rosa Elvira, using the sad numbers of those women that were killed 5 years later in Colombia only because they are women.
 
@@ -31,7 +31,7 @@ Decidimos hacer lo propio, solo que en lugar de usar imágenes existentes, decid
 
 Con los gráficos hechos debíamos encontrar una forma de generar diferentes escalas de grises para tener el resultado final. Una opción era usar diferentes temas de ggplot al azar, pero como usaríamos los gráficos de ggplot en diferentes partes del proyecto decidimos usar el paquete [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) de procesamiento de imágenes para hacer muestreos de diferentes tonalidades de grises con 6 niveles para representar aproximadamente la distibución de los pixeles de la imagen objetivo. 
 
-Finalmente se utiliza el paquete [RsimMosaic](http://recordit.co/e4Yz6krdQr) para generar el mosaico.
+Finalmente se utiliza el paquete [RsimMosaic](https://cran.r-project.org/web/packages/RsimMosaic/index.html) para generar el mosaico.
 
 Este es el resultado final.
 Para conocer más sobre la intervención que hicimos con estos datos puedes ver este [post](https://www.datasketch.co/es/p/revive-nuestra-intervencion-callejera-con-rosa-elvira-cely).
@@ -58,9 +58,9 @@ We decided to do the same but instead of using existing images we created our ow
 
 With graphs for the mosaic done, we need a way to transform them so each graph would correspond to a pixel in the final image. For the final image to have better results we would need to map adjust the brightness of each ggplot so they would resemble a pixel value in a gray scale image. One option was to use different ggplot themes randomly, but given that we would use the graphs for something else we decided to change the brightness and saturation values of each image using [magick](https://cran.r-project.org/web/packages/magick/vignettes/intro.html). We did this randomly for 6 different "levels of gray". 
 
-Finaly we used the awesome [RsimMosaic](http://recordit.co/e4Yz6krdQr) to generate the mosaic. By the way, [@LucyStats](http://twitter.com/LucyStats) we couldn't make your adaptation to work, we were having issues with gray scale images. 
+Finally we used the awesome [RsimMosaic](https://cran.r-project.org/web/packages/RsimMosaic/index.html) to generate the mosaic. By the way, [@LucyStats](http://twitter.com/LucyStats) we couldn't make your adaptation to work, we were having issues with gray scale images. 
 
-Anyway, to know more about the intervention and how we ended up using this to create impact in the real world check this [post]().
+Anyway, to know more about the intervention and how we ended up using this to create impact in the real world check this [post](https://www.datasketch.co/en/p/how-we-used-r-to-raise-alarms-about-feminicides-in-colombia).
 And to replicate the mosaic simply check the [script](rcompose-image.R).
 
 **Warning**
