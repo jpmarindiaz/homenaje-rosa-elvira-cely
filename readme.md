@@ -17,7 +17,7 @@ Esta es Rosa Elvira
 
 Y esta es Rosa Elvira creada dibujada con los datos de feminicidios en Colombia durante 2017.
 
-![rosa-elvira-cely](rosa-elvira-plots.png)
+![rosa-elvira-cely](photos/rosa-elvira-plots.png)
 
 Los datos los recopilamos para el [especial sobre violencia contra la mujer](http://especiales.datasketch.co/sobrevivientes). 
 
